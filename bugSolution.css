@@ -1,0 +1,1 @@
+To solve the specificity issue, we can increase the specificity of the internal stylesheet rule. This can be done by adding more selectors to the rule or using the `!important` flag (though this is generally discouraged for maintainability reasons).  Another solution is to refactor the conflicting styles to avoid direct conflicts.
